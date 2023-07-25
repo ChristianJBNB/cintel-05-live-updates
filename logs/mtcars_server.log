@@ -1,0 +1,23 @@
+2023-07-25 14:17:22,755.mtcars_server.INFO =============================================================
+2023-07-25 14:17:22,756.mtcars_server.INFO Today is 2023-07-25 at 02:17 PM
+2023-07-25 14:17:22,756.mtcars_server.INFO This file is running on: nt Windows 10
+2023-07-25 14:17:22,756.mtcars_server.INFO The Python version is: 3.11.3
+2023-07-25 14:17:22,756.mtcars_server.INFO The active environment path is:   C:\Users\cjack\Documents\GitHub\continuous-intel\cintel-05-live-updates\.venv
+2023-07-25 14:17:22,757.mtcars_server.INFO The current working directory is: C:\Users\cjack\Documents\GitHub\continuous-intel\cintel-05-live-updates
+2023-07-25 14:17:22,757.mtcars_server.INFO =============================================================
+2023-07-25 14:17:32,292.mtcars_server.DEBUG filter message: Showing 32 of 32 records
+2023-07-25 14:17:32,619.mtcars_server.INFO Starting mtcars_output_widget1
+2023-07-25 14:17:33,004.mtcars_server.INFO Starting mtcars_plot1
+2023-07-25 14:17:36,120.mtcars_server.INFO READING df from C:\Users\cjack\Documents\GitHub\continuous-intel\cintel-05-live-updates\data\mtcars_location.csv
+2023-07-25 14:17:36,128.mtcars_server.INFO READING df len 15
+2023-07-25 14:17:36,129.mtcars_server.INFO init reactive_temp_df len: 15
+2023-07-25 14:17:36,130.mtcars_server.INFO mtcars_temperature_location_string starting
+2023-07-25 14:17:36,130.mtcars_server.INFO Recent Temperature in F for ELY MN.
+Updated once per minute for 15 minutes.
+Keeps the most recent 10 minutes of data.
+2023-07-25 14:17:36,131.mtcars_server.INFO Rendering TEMP table with 5 rows
+2023-07-25 14:17:36,133.mtcars_server.INFO Rendering TEMP chart with 5 points
+2023-07-25 14:17:36,212.mtcars_server.INFO READING df from C:\Users\cjack\Documents\GitHub\continuous-intel\cintel-05-live-updates\data\mtcars_location.csv
+2023-07-25 14:17:36,218.mtcars_server.INFO READING df len 3
+2023-07-25 14:17:36,219.mtcars_server.INFO Rendering TEMP table with 1 rows
+2023-07-25 14:17:36,221.mtcars_server.INFO Rendering TEMP chart with 1 points
