@@ -252,7 +252,7 @@ def get_mtcars_server_functions(input, output, session):
         stock_df = df[df["Company"] == reactive_stock.get()]
         logger.info(f"Rendering stock chart with {len(df_stocks)} points")
         plotly_express_plot = px.line(
-            df_stocks, x="Time", y="Price", color="Company", markers=True
+            stock_df, x="Time", y="Price", color="Company", markers=True
         )
         plotly_express_plot.update_layout(title="Continuous Price (USD)")
         return plotly_express_plot    
