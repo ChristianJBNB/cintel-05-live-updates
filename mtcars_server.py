@@ -250,7 +250,7 @@ def get_mtcars_server_functions(input, output, session):
         df = get_mtcars_stock_df()
         # Filter the data based off of the selected stock
         stock_df = df[df["Company"] == reactive_stock.get()]
-        logger.info(f"Rendering stock chart with {len(df_stocks)} points")
+        logger.info(f"Rendering stock chart with {len(stock_df)} points")
         plotly_express_plot = px.line(
             stock_df, x="Time", y="Price", color="Company", markers=True
         )
