@@ -8,6 +8,7 @@ import yfinance as yf
 from collections import deque
 from datetime import datetime
 from pathlib import Path
+from fetch import fetch_from_url
 from util_logger import setup_logger
 
 #Setup for the logger
@@ -27,13 +28,18 @@ def lookup_ticker(company):
 
 async def get_stock_price(ticker):
     logger.info("Calling get_stock_price for {ticker}}")
-    yf_url = f"https://query1.finance.yahoo.com/v7/finance/options/{ticker}"
-    logger.info(f"Calling yf_url to for: {yf_url}")
-    yf_results = await fetch_from_url(yf_url)
-    logger.info(f"Results from fetch of yf_url: {yf_results}")
+
+    ################################################################################################################################################
+    #This commented out code successfully pulls from the website and returns the stock info without fail, but returns it as an httpresponse object.#
+    ################################################################################################################################################
+
+    #yf_url = f"https://query1.finance.yahoo.com/v7/finance/options/{ticker}"
+    #logger.info(f"Calling yf_url to for: {yf_url}")
+    #yf_results = await fetch_from_url(yf_url, "json")
+    #logger.info(f"Results from fetch of yf_url: {yf_results}")
     # stock = yf.Ticker(ticker) # Get the stock data
     # price = stock.history(period="1d").tail(1)["Close"][0] # Get the closing price
-    price = yf_results
+    price = randint(15, 200)
     return price
 
 def init_csv_file(file_path):
@@ -47,11 +53,11 @@ async def update_csv_stock():
     logger.info("Calling update_csv_stock")
     try:
         companies = [
-        "Tesla Inc"
-        "General Motors Company"
-        "Toyota Motor Corporation"
-        "Ford Motor Company"
-        "Honda Motor Co"
+        "Tesla Inc",
+        "General Motors Company",
+        "Toyota Motor Corporation",
+        "Ford Motor Company",
+        "Honda Motor Co",
         ]
 
         update_interval = 60  # Update every 1 minute (60 seconds)
@@ -78,7 +84,7 @@ async def update_csv_stock():
                 new_price = await get_stock_price(ticker)
                 time_now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")  # Current time
                 new_record = {
-                    "Compnay": company,
+                    "Company": company,
                     "Ticker": ticker,
                     "Time": time_now,
                     "Price": new_price,
@@ -90,7 +96,7 @@ async def update_csv_stock():
 
             # Save the DataFrame to the CSV file, deleting its contents before writing
             df.to_csv(fp, index=False, mode="w")
-            logger.info(f"Saving temperatures to {fp}")
+            logger.info(f"Saving prices to {fp}")
 
             # Wait for update_interval seconds before the next reading
             await asyncio.sleep(update_interval)
