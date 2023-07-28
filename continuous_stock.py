@@ -28,18 +28,13 @@ def lookup_ticker(company):
 
 async def get_stock_price(ticker):
     logger.info("Calling get_stock_price for {ticker}}")
-
-    ################################################################################################################################################
-    #This commented out code successfully pulls from the website and returns the stock info without fail, but returns it as an httpresponse object.#
-    ################################################################################################################################################
-
-    #yf_url = f"https://query1.finance.yahoo.com/v7/finance/options/{ticker}"
-    #logger.info(f"Calling yf_url to for: {yf_url}")
-    #yf_results = await fetch_from_url(yf_url, "json")
-    #logger.info(f"Results from fetch of yf_url: {yf_results}")
+    yf_url = f"https://query1.finance.yahoo.com/v7/finance/options/{ticker}"
+    logger.info(f"Calling yf_url to for: {yf_url}")
+    yf_results = await fetch_from_url(yf_url, "json")
+    logger.info(f"Data for {ticker}: {yf_results}")
     # stock = yf.Ticker(ticker) # Get the stock data
     # price = stock.history(period="1d").tail(1)["Close"][0] # Get the closing price
-    price = randint(15, 200)
+    price = yf_results.data["optionChain"]["result"][0]["quote"]["regularMarketPrice"]
     return price
 
 def init_csv_file(file_path):

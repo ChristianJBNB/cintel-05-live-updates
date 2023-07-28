@@ -1,33 +1,40 @@
-2023-07-28 14:56:44,483.mtcars_server.INFO =============================================================
-2023-07-28 14:56:44,483.mtcars_server.INFO Today is 2023-07-28 at 02:56 PM
-2023-07-28 14:56:44,483.mtcars_server.INFO This file is running on: nt Windows 10
-2023-07-28 14:56:44,483.mtcars_server.INFO The Python version is: 3.11.3
-2023-07-28 14:56:44,484.mtcars_server.INFO The active environment path is:   C:\Users\cjack\Documents\GitHub\continuous-intel\cintel-05-live-updates\.venv
-2023-07-28 14:56:44,484.mtcars_server.INFO The current working directory is: C:\Users\cjack\Documents\GitHub\continuous-intel\cintel-05-live-updates
-2023-07-28 14:56:44,484.mtcars_server.INFO =============================================================
-2023-07-28 14:56:46,210.mtcars_server.DEBUG filter message: Showing 32 of 32 records
-2023-07-28 14:56:46,263.mtcars_server.INFO Starting mtcars_output_widget1
-2023-07-28 14:56:46,638.mtcars_server.INFO Starting mtcars_plot1
-2023-07-28 14:56:47,455.mtcars_server.INFO READING df from C:\Users\cjack\Documents\GitHub\continuous-intel\cintel-05-live-updates\data\mtcars_location.csv
-2023-07-28 14:56:47,461.mtcars_server.INFO READING df len 6
-2023-07-28 14:56:47,461.mtcars_server.INFO init reactive_temp_df len: 6
-2023-07-28 14:56:47,462.mtcars_server.INFO mtcars_temperature_location_string starting
-2023-07-28 14:56:47,462.mtcars_server.INFO Recent Temperature in F for ELY MN.
+2023-07-28 15:14:26,014.mtcars_server.INFO =============================================================
+2023-07-28 15:14:26,014.mtcars_server.INFO Today is 2023-07-28 at 03:14 PM
+2023-07-28 15:14:26,014.mtcars_server.INFO This file is running on: nt Windows 10
+2023-07-28 15:14:26,014.mtcars_server.INFO The Python version is: 3.11.3
+2023-07-28 15:14:26,016.mtcars_server.INFO The active environment path is:   C:\Users\cjack\Documents\GitHub\continuous-intel\cintel-05-live-updates\.venv
+2023-07-28 15:14:26,016.mtcars_server.INFO The current working directory is: C:\Users\cjack\Documents\GitHub\continuous-intel\cintel-05-live-updates
+2023-07-28 15:14:26,016.mtcars_server.INFO =============================================================
+2023-07-28 15:14:28,996.mtcars_server.DEBUG filter message: Showing 32 of 32 records
+2023-07-28 15:14:29,050.mtcars_server.INFO Starting mtcars_output_widget1
+2023-07-28 15:14:29,447.mtcars_server.INFO Starting mtcars_plot1
+2023-07-28 15:14:30,290.mtcars_server.INFO READING df from C:\Users\cjack\Documents\GitHub\continuous-intel\cintel-05-live-updates\data\mtcars_location.csv
+2023-07-28 15:14:30,292.mtcars_server.INFO READING df len 3
+2023-07-28 15:14:30,292.mtcars_server.INFO init reactive_temp_df len: 3
+2023-07-28 15:14:30,292.mtcars_server.INFO mtcars_temperature_location_string starting
+2023-07-28 15:14:30,293.mtcars_server.INFO Recent Temperature in F for ELY MN.
 Updated once per minute for 15 minutes.
 Keeps the most recent 10 minutes of data.
-2023-07-28 14:56:47,463.mtcars_server.INFO Rendering TEMP table with 2 rows
-2023-07-28 14:56:47,465.mtcars_server.INFO Rendering TEMP chart with 2 points
-2023-07-28 14:56:47,509.mtcars_server.INFO READING df from C:\Users\cjack\Documents\GitHub\continuous-intel\cintel-05-live-updates\data\mtcars_stock.csv
-2023-07-28 14:56:47,514.mtcars_server.INFO READING df len 10
-2023-07-28 14:56:47,514.mtcars_server.INFO init reactive_price_df len: 10
-2023-07-28 14:56:47,515.mtcars_server.INFO mtcars_price_stocks_string starting
-2023-07-28 14:56:47,515.mtcars_server.INFO Current stock price for Tesla Inc.
+2023-07-28 15:14:30,294.mtcars_server.INFO Rendering TEMP table with 1 rows
+2023-07-28 15:14:30,296.mtcars_server.INFO Rendering TEMP chart with 1 points
+2023-07-28 15:14:30,349.mtcars_server.INFO READING df from C:\Users\cjack\Documents\GitHub\continuous-intel\cintel-05-live-updates\data\mtcars_stock.csv
+2023-07-28 15:14:30,351.mtcars_server.INFO READING df len 5
+2023-07-28 15:14:30,351.mtcars_server.INFO init reactive_price_df len: 5
+2023-07-28 15:14:30,352.mtcars_server.INFO mtcars_price_stocks_string starting
+2023-07-28 15:14:30,352.mtcars_server.INFO Current stock price for Tesla Inc.
 Updated once per minute for 15 minutes.
 Keeps the most recent 10 minutes of data.
-2023-07-28 14:56:47,570.mtcars_server.INFO READING df from C:\Users\cjack\Documents\GitHub\continuous-intel\cintel-05-live-updates\data\mtcars_location.csv
-2023-07-28 14:56:47,577.mtcars_server.INFO READING df len 3
-2023-07-28 14:56:47,578.mtcars_server.INFO Rendering TEMP table with 1 rows
-2023-07-28 14:56:47,580.mtcars_server.INFO Rendering TEMP chart with 1 points
-2023-07-28 14:56:47,628.mtcars_server.INFO READING df from C:\Users\cjack\Documents\GitHub\continuous-intel\cintel-05-live-updates\data\mtcars_stock.csv
-2023-07-28 14:56:47,635.mtcars_server.INFO READING df len 5
-2023-07-28 14:56:47,635.mtcars_server.INFO Rendering stock chart with 1 points
+2023-07-28 15:14:30,354.mtcars_server.INFO Rendering stock chart with 1 points
+2023-07-28 15:14:31,665.mtcars_server.INFO READING df from C:\Users\cjack\Documents\GitHub\continuous-intel\cintel-05-live-updates\data\mtcars_location.csv
+2023-07-28 15:14:31,670.mtcars_server.INFO READING df len 3
+2023-07-28 15:14:31,671.mtcars_server.INFO Rendering TEMP table with 1 rows
+2023-07-28 15:14:31,673.mtcars_server.INFO Rendering TEMP chart with 1 points
+2023-07-28 15:14:31,718.mtcars_server.INFO READING df from C:\Users\cjack\Documents\GitHub\continuous-intel\cintel-05-live-updates\data\mtcars_stock.csv
+2023-07-28 15:14:31,724.mtcars_server.INFO READING df len 5
+2023-07-28 15:14:31,724.mtcars_server.INFO Rendering stock chart with 1 points
+2023-07-28 15:14:39,878.mtcars_server.INFO init reactive_price_df len: 5
+2023-07-28 15:14:39,879.mtcars_server.INFO mtcars_price_stocks_string starting
+2023-07-28 15:14:39,879.mtcars_server.INFO Current stock price for General Motors Company.
+Updated once per minute for 15 minutes.
+Keeps the most recent 10 minutes of data.
+2023-07-28 15:14:39,881.mtcars_server.INFO Rendering stock chart with 1 points
