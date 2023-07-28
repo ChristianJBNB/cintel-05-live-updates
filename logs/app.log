@@ -1,10 +1,10 @@
-2023-07-27 16:33:59,921.app.INFO =============================================================
-2023-07-27 16:33:59,921.app.INFO Today is 2023-07-27 at 04:33 PM
-2023-07-27 16:33:59,921.app.INFO This file is running on: nt Windows 10
-2023-07-27 16:33:59,922.app.INFO The Python version is: 3.11.3
-2023-07-27 16:33:59,922.app.INFO The active environment path is:   C:\Users\cjack\Documents\GitHub\continuous-intel\cintel-05-live-updates\.venv
-2023-07-27 16:33:59,922.app.INFO The current working directory is: C:\Users\cjack\Documents\GitHub\continuous-intel\cintel-05-live-updates
-2023-07-27 16:33:59,922.app.INFO =============================================================
-2023-07-27 16:34:02,682.app.INFO Starting server ...
-2023-07-27 16:34:02,682.app.INFO Starting continuous updates ...
-2023-07-27 16:34:04,081.app.INFO Calling continuous updates ...
+2023-07-28 14:24:07,620.app.INFO =============================================================
+2023-07-28 14:24:07,620.app.INFO Today is 2023-07-28 at 02:24 PM
+2023-07-28 14:24:07,620.app.INFO This file is running on: nt Windows 10
+2023-07-28 14:24:07,621.app.INFO The Python version is: 3.11.3
+2023-07-28 14:24:07,621.app.INFO The active environment path is:   C:\Users\cjack\Documents\GitHub\continuous-intel\cintel-05-live-updates\.venv
+2023-07-28 14:24:07,621.app.INFO The current working directory is: C:\Users\cjack\Documents\GitHub\continuous-intel\cintel-05-live-updates
+2023-07-28 14:24:07,621.app.INFO =============================================================
+2023-07-28 14:24:09,636.app.INFO Starting server ...
+2023-07-28 14:24:09,636.app.INFO Starting continuous updates ...
+2023-07-28 14:24:11,035.app.INFO Calling continuous updates ...

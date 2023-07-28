@@ -27,9 +27,13 @@ def lookup_ticker(company):
 
 async def get_stock_price(ticker):
     logger.info("Calling get_stock_price for {ticker}}")
+    yf_url = f"https://query1.finance.yahoo.com/v7/finance/options/{ticker}"
+    logger.info(f"Calling yf_url to for: {yf_url}")
+    yf_results = await fetch_from_url(yf_url)
+    logger.info(f"Results from fetch of yf_url: {yf_results}")
     # stock = yf.Ticker(ticker) # Get the stock data
     # price = stock.history(period="1d").tail(1)["Close"][0] # Get the closing price
-    price = randint(132, 148) 
+    price = yf_results
     return price
 
 def init_csv_file(file_path):
