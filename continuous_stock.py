@@ -21,6 +21,7 @@ def lookup_ticker(company):
         "Toyota Motor Corporation": "TM",
         "Ford Motor Company": "F",
         "Honda Motor Co": "HMC",
+        "GameStop Corp": "GME",
     }
     
     ticker = stocks_dictionary[company]
@@ -53,6 +54,7 @@ async def update_csv_stock():
         "Toyota Motor Corporation",
         "Ford Motor Company",
         "Honda Motor Co",
+        "GameStop Corp"
         ]
 
         update_interval = 60  # Update every 1 minute (60 seconds)
