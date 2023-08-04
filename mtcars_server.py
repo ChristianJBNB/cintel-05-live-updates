@@ -234,7 +234,7 @@ def get_mtcars_server_functions(input, output, session):
         return new_message
 
     @output
-    @render.text
+    @render.table
 
     def mtcars_stock_table():
         df = get_mtcars_stock_df()
@@ -271,6 +271,9 @@ def get_mtcars_server_functions(input, output, session):
         mtcars_location_string,
         mtcars_location_table,
         mtcars_location_chart,
+        mtcars_stock_string,
+        mtcars_stock_table,
+        mtcars_stock_chart,
     ]
 
 
